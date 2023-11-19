@@ -1,0 +1,139 @@
+body{
+    background: #EFA94A;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-areas:"foto dance ";
+    height: auto;
+    width: 80%;
+    margin: 2% 12%;
+    grid-gap: 0%;
+    row-gap: 3%;
+    align-items: stretch;
+
+  }
+
+a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation {
+    margin-top: 20px;
+  }
+  
+  .site-navigation {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fit, 30%);
+    margin-left: 265px;
+  }
+  
+  .site-navigation-item {
+    margin-right: 10px;
+  }
+  
+  .site-navigation-item a {
+    font-size: 24px;
+    color: #b34747;
+  }
+  
+  .site-navigation-item a.active {
+    font-weight: bold;
+  }
+
+  /* h1{
+    display: grid;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 20px;
+
+    background: #FDD9B5;
+    border: solid;
+    border-radius: 5%;
+    border-color: rgb(2, 2, 2);
+    width: 1100px;
+    height: 70px;
+    margin-left: 180px;
+    margin-bottom: 0px;
+} */
+
+.titlewrapper{
+  width:100%;
+  display:flex;
+  justify-content: center;
+
+  background: #FDD9B5;
+  border: solid;
+  border-radius: 5%;
+  border-color: rgb(2, 2, 2);
+  margin-bottom: 0px;
+}
+
+.photo{
+
+    padding: 20px;
+    display: grid;
+
+    border-radius: 0 0 7% 7%; 
+  }
+  
+.photo {
+    display: grid;
+    justify-content: center;
+    width: 300px; 
+    margin-top:-20px;
+    grid-area: foto;
+
+  }
+  
+  .photo-list a {
+    margin-bottom: 10px;
+
+  }
+  
+  .photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 7%;
+  }
+
+  .dance{
+
+    display: grid;
+    height: 140vh;
+    font-size: 27px;
+    font-weight: bold;
+    margin-top:24px;
+    margin-left:-25px;
+    margin-bottom: 74px;
+    grid-area: dance;
+  }
+
+.item{
+    background: #FDD9B5;
+    border: solid;
+    border-radius: 5%;
+    border-color: rgb(2, 2, 2);
+
+}
+
+p{
+  color: #000000; /* Цвет текста */
+  font-size: 30px;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease; 
+}
+
+p:hover{
+  color: #f66d52; /* Меняем цвет текста */
+}
+
